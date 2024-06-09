@@ -9,6 +9,9 @@ import { ErrorPage } from "./pages/ErrorPage/ErrorPage.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
+
+
+  
   {
     path: "/",
     element: <MainLayout />,
