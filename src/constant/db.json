@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Essence Mascara Lash Princess",
+    "image": "./Sneakers.svg",
+    "price": 110,
+    "count": 1
+  },
+  {
+    "id": 2,
+    "name": "Essence Mascara Lash Princess",
+    "image": "./Sneakers.svg",
+    "price": 110,
+    "count": 1
+  },
+  {
+    "id": 3,
+    "name": "Essence Mascara Lash Princess",
+    "image": "./Sneakers.svg",
+    "price": 110,
+    "count": 1
+  },
+  {
+    "id": 4,
+    "name": "Essence Mascara Lash Princess",
+    "image": "./Sneakers.svg",
+    "price": 110,
+    "count": 1
+  },
+  {
+    "id": 5,
+    "name": "Essence Mascara Lash Princess",
+    "image": "./Sneakers.svg",
+    "price": 110,
+    "count": 1
+  },
+  {
+    "id": 6,
+    "name": "Essence Mascara Lash Princess",
+    "image": "./Sneakers.svg",
+    "price": 110,
+    "count": 1
+  },
+  {
+    "id": 7,
+    "name": "Essence Mascara Lash Princess",
+    "image": "./Sneakers.svg",
+    "price": 110,
+    "count": 1
+  },
+  {
+    "id": 8,
+    "name": "Essence Mascara Lash Princess",
+    "image": "./Sneakers.svg",
+    "price": 110,
+    "count": 1
+  },
+  {
+    "id": 9,
+    "name": "Essence Mascara Lash Princess",
+    "image": "./Sneakers.svg",
+    "price": 1200,
+    "count": 1
+  }
+]

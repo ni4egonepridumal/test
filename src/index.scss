@@ -1,0 +1,21 @@
+:root {
+  --purple: #484283;
+  --gray: #444b58;
+  --button-red: #f14f4f;
+  --button-red-hover: #8c2828;
+  --input-background: #f6f6f6;
+  --placeholder-color: #b2b5bb;
+  --base-white: #ffffff;
+  --font-color: #444b58;
+  --anchor-hover: #c4c4c4;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  color: var(--font-color);
+}

@@ -1,0 +1,67 @@
+.aboutProduct {
+  display: flex;
+  justify-content: space-between;
+}
+.cartProduct {
+  width: 370px;
+  height: 356px;
+  position: relative;
+
+  @media (max-width: 400px) {
+    width: 300px;
+  }
+}
+.imgInner {
+  position: relative;
+  .oneSnickersImgInner {
+    position: absolute;
+    top: 0px;
+    border-radius: 4px;
+    z-index: 111;
+    transition: background 0.25s;
+    width: 369px;
+    height: 292px;
+    opacity: 0.2;
+    &:hover {
+      background: black;
+    }
+    @media (max-width: 400px) {
+      width: 300px;
+    }
+  }
+  .oneSnickersImg {
+    position: relative;
+    z-index: -999;
+
+    @media (max-width: 680px) {
+      width: 300px;
+    }
+  }
+}
+
+.aboutProduct_paragraph_trim {
+  font-weight: 600;
+  margin-top: 3px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 179px;
+
+  @media (max-width: 400px) {
+    width: 123px;
+  }
+}
+.aboutProduct_paragraph {
+  font-weight: 600;
+  margin-top: 3px;
+}
+.buttonImg {
+  margin-top: 3px;
+}
+.cartProductImg {
+  margin-top: 6px;
+  width: 26px;
+}
+.aboutProduct_price {
+  font-size: 18px;
+}

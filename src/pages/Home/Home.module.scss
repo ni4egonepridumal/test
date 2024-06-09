@@ -1,0 +1,182 @@
+.info {
+  position: relative;
+  height: 438px;
+  background-color: var(--purple);
+  color: var(--base-white);
+  padding: 0px 130px;
+
+  @media (max-width: 560px) {
+    padding: 0px 30px;
+  }
+  .background_letter {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.12);
+    font-size: 200px;
+    font-weight: 700;
+    top: 111px;
+    left: 163px;
+
+    @media (max-width: 1330px) {
+      display: none;
+    }
+  }
+  .slogan {
+    padding-top: 72px;
+    font-size: 36px;
+    font-weight: 400;
+    max-width: 580px;
+
+    @media (max-width: 560px) {
+      padding-top: 0px;
+    }
+    @media (max-width: 340px) {
+      font-size: 34px;
+    }
+  }
+  .whatWeSale {
+    font-size: 16px;
+    font-weight: 600;
+    max-width: 350px;
+    margin-top: 16px;
+  }
+  .button {
+    margin-top: 38px;
+    .anchorButton {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
+.catalog {
+  padding: 0px 130px;
+
+  @media (max-width: 680px) {
+    padding: 0px 30px;
+  }
+
+  .catalog_paragraph {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 54px;
+  }
+  .input {
+    margin-right: 20px;
+
+    @media (max-width: 560px) {
+      margin-right: 0px;
+    }
+  }
+  .searchGroup {
+    margin-top: 43px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .cartProduct_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-top: 40px;
+    @media (max-width: 1440px) {
+      justify-content: center;
+    }
+  }
+  .buttonProductCart {
+    display: flex;
+    justify-content: center;
+    margin-top: 54px;
+    margin-bottom: 60px;
+  }
+}
+.questions {
+  height: 445px;
+  background-color: var(--purple);
+  color: var(--base-white);
+  .faq {
+    max-width: 880px;
+    padding-top: 35px;
+    margin: 0 auto;
+
+    @media (max-width: 950px) {
+      padding: 35px;
+    }
+    .faqItem {
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 26px;
+    }
+    .horizonLine {
+      width: 100%;
+      height: 1px;
+    }
+  }
+}
+
+/* FAQ */
+.questionsItemInner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  .questionsItem {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28.9px;
+  }
+  .plus0 {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in-out;
+  }
+  .plus45 {
+    transform: rotate(45deg);
+    transition: transform 0.3s ease-in-out;
+  }
+}
+.showAnswer {
+  margin-bottom: 37px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  transition: transform 0.3s ease-in-out;
+  transform: transform 0.3s ease-in-out;
+}
+
+.open {
+  transform: transform 0.3s ease-in-out; /* Пример стиля для открытого состояния */
+}
+/**/
+
+// @keyframes rotatePlus {
+//   0% {
+//     transform: rotate(0deg);
+//   }
+//   100% {
+//     transform: rotate(45deg);
+//   }
+// }
+
+// @keyframes slideDown {
+//   0% {
+//     transform: scale(0);
+//   }
+//   100% {
+//     transform: scale(1);
+//   }
+// }
+
+// .showAnswer {
+//   animation: slideDown 0.3s ease-in-out;
+//   overflow: hidden;
+// }
+
+// .plus0 {
+//   animation: rotatePlus 0.3s ease-in-out;
+// }
+
+// .plus45 {
+//   animation: rotatePlus 0.3s ease-in-out;
+//   transform: rotate(45deg);
+// }
+/**/

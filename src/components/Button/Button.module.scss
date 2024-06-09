@@ -1,0 +1,31 @@
+.button {
+    position: relative;
+	font-family: inherit;
+	cursor: pointer;
+	transition: background 0.25s;
+	border: none;
+	color: var(--base-white);
+	font-weight: 400;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: var(--button-red);
+    &:hover {
+        background: var(--button-red-hover);
+}
+}
+.small {
+	width: 48px;
+    height: 48px;
+}
+.big {
+    width: 200px;
+    height: 67px; 
+}
+
+// .accent {
+// 	background: var(--primary-color);
+// }
+
+// .accent:hover {
+// 	background: var(--primary-hover-color);
+// }
