@@ -2,6 +2,7 @@ import styles from "./Cart.module.scss";
 import { ProductsInCart } from "../../components/ProductsInCart/ProductsInCart";
 
 export const Cart = () => {
+  /* тестовый коммент */
   return (
     <div className={styles.container}>
       <p className={styles.cartName} id="cartName">
